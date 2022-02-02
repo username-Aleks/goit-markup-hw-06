@@ -372,6 +372,7 @@
             </form>
         </div>        
     </footer>
+    <!-- модальное  окно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="btn-modal-close" data-modal-close>
@@ -411,14 +412,15 @@
                     <span class="form-label">Комментарий</span> 
                 </label>
                     
-                <label for="agreement" class="form-checkbox">
-                    <input type="checkbox" name="agreement">
+                <label  class="form-checkbox">
+                    <input type="checkbox" name="agreement" class="checkbox">                    
+                    <svg class="checkbox-icon" width="16px" height="15px">
+                        <use href="images/sprite.svg#check"></use>
+                    </svg>
                     <span>Соглашаюсь с рассылкой и принимаю <span><a href="" class="checkbox-agreement">Условия договора</a></span>
                 </span>
                 </label>
                 <button class="hero-button button" type="submit">Отправить</button>
-
-
             </form>
         </div>
     </div>
