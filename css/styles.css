@@ -835,6 +835,8 @@ textarea:focus {
 
 .checkbox-icon {
   display: inline-block;
+  width: 16px;
+  height: 15px;
 
   border: 2px solid var(--primary-black-color);
   border-radius: 3px;
